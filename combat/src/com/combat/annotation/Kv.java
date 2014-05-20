@@ -5,12 +5,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * Author: Tony.Wang
- * Date: 12-4-6
- * Time: 下午2:30
- * Description: to write something
- */
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

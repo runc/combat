@@ -12,11 +12,5 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Documented
 public @interface Send {
-    /**
-     * topic/queue name
-     *
-     * @return topic/queue name
-     * @Send(topicName) ==> @Consume(topicName);
-     */
     String value();
 }
